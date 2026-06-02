@@ -21,7 +21,7 @@ print(type(old))
 print(type(a))
 
 # Python is a case - sensitive language which means that it treats uppercase and lowercase letters differently.
-
+#sample code for case sensitivity
 a=1000
 b=500
 sum=a-b
