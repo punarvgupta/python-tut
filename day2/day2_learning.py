@@ -75,3 +75,25 @@ print(str.find(o))
 
 str="iamstudyingpython"
 print(str.count("o"))
+
+
+# CONDITIONAL STATEMENTS
+
+# if-elif-else SYNTAX
+
+# The "if" function is used to for condition .
+# The "else" function is an function which is used for
+# The "elif"(else if ) function is an function which used fo exeptions of if.
+# For example : 
+
+
+light="blue"
+if("red")
+    print("stop !")
+elif("green")
+    print(" Go !")  
+elif("orange")
+    print("Look !")
+else:
+    print("light is broken")          
+
