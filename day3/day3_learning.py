@@ -53,7 +53,7 @@ print(list.sort(reverse=False))
 print(list)
 
 # The function "lis.reverse" function which is used for reversing the list.
-# For example :
+# For example
 
 list=['a', 'b', 'c', 'd', 'e', 'f']
 list.reverse()
@@ -72,3 +72,38 @@ print(list)
 list=[2, 1, 3]
 list.pop(1)
 print(list)
+
+# TUPLES
+
+# Tuples are a built-in type that let's us create immutable sequences of values .
+# Call function for tuple is "()"
+# For example :
+
+tup = (2, 1, 3, 1)
+print(type(tup))
+
+# We an also access each value in the tuple by :
+
+tup = (2, 1, 3, 1)
+print(tup[0])
+print(tup[1])
+
+# An empty tuple is also valid and only shows parenthesis .
+
+tup=()
+print(tup)
+print(type(tup))
+
+# Tuple Methods
+
+# The "tup.index( el ) is an function which returns index of first occurrence .
+# For example :
+
+tup=(1, 2, 3, 4)
+print(tup.index(2))
+
+# The "tup.count" is a function witch counts total occurrences .
+# For example :
+
+tup=(1, 2, 3, 4)
+print(tup.count((2)))
