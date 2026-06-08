@@ -4,7 +4,7 @@
 # Dictionaries are used to store data values in key:value pairs.
 # They are unordered, mutable(changeable) and don't allow duplicate keys .
 
-'''info = {
+info = {
     "name" : "punarv gupta",
     "subjects" : ["python", "C", "Java"],
     "topics" : ("dict", "set"),
@@ -14,11 +14,11 @@
     12.99 : 94.4
 }
 
-print(info)'''
+print(info)
 
 # Nested Dictionaries
 
-'''student = {
+student = {
     "name" : "rahul kumar",
     "subjects" : {
         "physics" : 97,
@@ -42,7 +42,7 @@ student = {
     }
 }
 
-print(student.keys())'''
+print(student.keys())
 
 # The "myDict.values()" is an function which returns all values .
 # For Example :
@@ -150,12 +150,33 @@ print(collection)
 # For Example :
 
 collection=set()
+
 collection.add(1)
 collection.add(2)
 collection.add("punarvgupta")
-collection.clear()
+
 collection.clear()
 print(collection)
+
 # The "set.pop" is an function which removes a random value.
 # For Example :
 
+collection = {"hello", "punarvgupta", "world", "coding", "python"}
+print(collection.pop())
+print(collection.pop())
+
+# The "set.union(set2)" is an function which combines both set values and returns new .
+# For Example :
+
+set1 = {1, 2, 3}
+set2 = {2, 3, 4}
+
+print(set1.union(set2))
+
+# The "set.intersection(set2)" is an function which combines common values and returns new .
+# For Example :
+
+set1 = {1, 2, 3}
+set2 = {2, 3, 4}
+
+print(set1.intersection(set2))
