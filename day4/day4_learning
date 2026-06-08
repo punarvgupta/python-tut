@@ -113,20 +113,49 @@ print(type(collection))
 # Sets ignore duplicate values :
 # For Example :
 
-collection1={1, 2, 2, 2, "hello", "world", "world", 4}
-print(collection1)
-print(type(collection1))
+collection={1, 2, 2, 2, "hello", "world", "world", 4}
+print(collection)
+print(type(collection))
 
 # Let's find out how to create an empty set .
 
-collection2 = set()
-print(collection2)
-print(type(collection2))
+collection = set()
+print(collection)
+print(type(collection))
 
 # Set methods
 
 # The "set.add( el ) is an function which adds an element .
 # For Example :
 
+collection=set()
+collection.add(1)
+collection.add(2)
+collection.add(2)
 
-# The "set.remove( el ) is an function which removes the elem an .
+print(collection)
+
+# The "set.remove( el ) is an function which removes the element .
+# For Example :
+
+collection=set()
+collection.add(1)
+collection.add(2)
+collection.add(2)
+
+collection.remove(1)
+print(collection)
+
+# The "set.clear()" is an function which empties the set .
+# For Example :
+
+collection=set()
+collection.add(1)
+collection.add(2)
+collection.add("punarvgupta")
+collection.clear()
+collection.clear()
+print(collection)
+# The "set.pop" is an function which removes a random value.
+# For Example :
+
