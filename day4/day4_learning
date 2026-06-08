@@ -1,2 +1,132 @@
- 
-print lol
+# DICTIONARY AND SETS
+
+# Dictionary
+# Dictionaries are used to store data values in key:value pairs.
+# They are unordered, mutable(changeable) and don't allow duplicate keys .
+
+'''info = {
+    "name" : "punarv gupta",
+    "subjects" : ["python", "C", "Java"],
+    "topics" : ("dict", "set"),
+    "age" : 12,
+    "is adult" : True,
+    "marks" : 94.4,
+    12.99 : 94.4
+}
+
+print(info)'''
+
+# Nested Dictionaries
+
+'''student = {
+    "name" : "rahul kumar",
+    "subjects" : {
+        "physics" : 97,
+        "chemistry" : 98,
+        "mathamatics" : 95
+    }
+}
+
+print(student)
+
+# The "myDict.keys()" is an function which returns all keys .
+# For Example :
+
+
+student = {
+    "name" : "rahul kumar",
+    "subjects" : {
+        "physics" : 97,
+        "chemistry" : 98,
+        "mathamatics" : 95
+    }
+}
+
+print(student.keys())'''
+
+# The "myDict.values()" is an function which returns all values .
+# For Example :
+
+student = {
+    "name" : "rahul kumar",
+    "subjects" : {
+        "physics" : 97,
+        "chemistry" : 98,
+        "mathamatics" : 95
+    }
+}
+
+print(student.values())
+# The "myDict.items()" is an function which returns all (key,val) pairs as tuples .
+# For Examples :
+
+student = {
+    "name" : "rahul kumar",
+    "subjects" : {
+        "physics" : 97,
+        "chemistry" : 98,
+        "mathamatics" : 95
+    }
+}
+
+print(student.items())
+
+# The "myDict.get("key"") is an function which returns the key according to the value .
+# For Example :
+
+student = {
+    "name" : "rahul kumar",
+    "subjects" : {
+        "physics" : 97,
+        "chemistry" : 98,
+        "mathamatics" : 95
+    }
+}
+
+print(student.get("name"))
+
+# The "myDict.update(newDict) is an function which inserts the specified items to the dictionaries.
+# For Example :
+
+student = {
+    "name" : "rahul kumar",
+    "subjects" : {
+        "physics" : 97,
+        "chemistry" : 98,
+        "mathamatics" : 95
+    }
+}
+
+print(student.update({"school" : "Jayshree Periwal High School"}))
+print(student)
+
+
+# SETS
+
+# Set is the collection of the unordered items .
+# Each element in the set must be unique and immutable .
+
+collection = {1, 2, 3, 4}
+print(collection)
+print(type(collection))
+
+# Sets ignore duplicate values :
+# For Example :
+
+collection1={1, 2, 2, 2, "hello", "world", "world", 4}
+print(collection1)
+print(type(collection1))
+
+# Let's find out how to create an empty set .
+
+collection2 = set()
+print(collection2)
+print(type(collection2))
+
+# Set methods
+
+# The "set.add( el ) is an function which adds an element .
+# For Example :
+
+
+# The "set.remove( el ) is an function which removes the elem an .
